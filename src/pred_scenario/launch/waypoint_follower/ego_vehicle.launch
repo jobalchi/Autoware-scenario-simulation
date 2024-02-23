@@ -1,0 +1,4 @@
+<launch>  
+  <include file="$(find pred_scenario)/launch/waypoint_follower/twist_filter.launch"></include>
+  <include file="$(find pred_scenario)/launch/waypoint_follower/wf_simulator.launch"></include>
+</launch>

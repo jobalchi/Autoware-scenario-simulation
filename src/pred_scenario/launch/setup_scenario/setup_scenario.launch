@@ -1,0 +1,6 @@
+<launch>  
+  <include file="$(find pred_scenario)/launch/map_loader/lanelet2_map_loader.launch"></include>
+  <include file="$(find pred_scenario)/launch/map_loader/points_map_loader.launch"></include>
+  <include file="$(find pred_scenario)/launch/map_loader/vector_map_loader.launch"></include>
+  <include file="$(find pred_scenario)/launch/setup_scenario/setup_tf.launch"></include>
+</launch>

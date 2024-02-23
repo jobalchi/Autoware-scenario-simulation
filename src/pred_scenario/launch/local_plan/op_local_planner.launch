@@ -1,0 +1,7 @@
+<launch>  
+  <include file="$(find pred_scenario)/launch/local_plan/op_common_params.launch"></include>
+  <include file="$(find pred_scenario)/launch/local_plan/op_trajectory_generator.launch"></include>
+  <include file="$(find pred_scenario)/launch/local_plan/op_motion_predictor.launch"></include>
+  <include file="$(find pred_scenario)/launch/local_plan/op_trajectory_evaluator.launch"></include>
+  <include file="$(find pred_scenario)/launch/local_plan/op_behavior_selector.launch"></include>
+</launch>
